@@ -1,0 +1,81 @@
+li:hover {
+  background-color: rgb(82, 82, 82);
+}
+#mainMenu{
+  position: fixed;
+  }
+
+#html{
+  background-color: #d74e03;
+}
+
+#c{
+  background-color: #5c3ad3;
+}
+
+p{
+  text-align: justify;
+}
+#dj{
+  background-color: #092d1f;
+}
+#fl{
+  background-color: #075898;
+}
+#post{
+  background-color: #e94d31;
+}
+
+#cvBtn{
+  color: #ffff;
+}
+
+#cvBtn:hover{
+  color: #474747;
+}
+
+.body {
+  background-color: #f4eeff;
+}
+
+/* #portafolio{
+  display: none;
+}
+
+#estudios{
+  display: none;
+}
+
+#skills{
+  display: none;
+}
+
+#contacto{
+  display: none;
+} */
+.card-img-top {
+  width: 100%;
+  height: 250px; /* altura fija para todas las imágenes */
+  object-fit: cover; /* mantiene la proporción y cubre el espacio */
+}
+/* Estilos para el botón */
+.scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;  /* Inicialmente oculto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Cambiar color cuando el mouse pasa sobre el botón */
+.scrollTopBtn:hover {
+  background-color: #0056b3;
+}

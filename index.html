@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <title>Roberto Robles Castro</title>
+</head>
+<body class="body">
+<div class="d-flex"> <!-- New div to wrap nav and container-fluid -->
+       
+        
+    <div class="container-fluid pb-3 flex-grow-1 d-flex flex-column flex-sm-row overflow-auto mt-3 " >
+      <aside  class="col-sm-2 flex-grow-sm-1 flex-shrink-1 flex-grow-0 sticky-top pb-sm-0 pb-3 me-1">
+        
+        <!-- Sidebar content -->
+        <div id="mainMenu" class="bg-dark navbar-expand-sm rounded-3 p-1 h-100 sticky-top" >
+            <div  class="text-center text-light me-2" id="ocultar">
+                <img src="assets/img/logo.png" alt="log" srcset="" width="150" height="90">
+                  <h5>Roberto Robles Castro</h5>
+              </div>
+            <ul class="nav nav-pills flex-sm-column flex-row mb-auto justify-content-between text-light">
+                <li class="nav-item  mt-4 " id="sobre">
+                    <a href="#sobreMi" class="nav-link px-2 text-light active" id="sobre1">
+                        <img src="assets/icons/Untitled/user.png" alt="Sobre mi" srcset="">
+                       <h6 class="d-none d-sm-inline ms-2"> Sobres mi</h6>
+                    </a>
+                </li>
+                <li class="nav-item mt-4" id="porta">
+                    <a href="#portafolio" class="nav-link px-2 text-light" id="porta1">
+                        <img src="assets/icons/Untitled/Portafolio.png" alt="Portafolio" srcset="">
+                        <h6 class="d-none d-sm-inline ms-2">Portafolio</h6>
+                    </a>
+                </li>
+                <li class="nav-item mt-4" id="estud">
+                    <a href="#estudios" class="nav-link px-1 text-light" id="estudio">
+                        <img src="assets/icons/Untitled/Estudios.png" alt="Estudios" srcset="">
+                        <h6 class="d-none d-sm-inline ms-2">Estudios</h6>
+                    </a>
+                </li>
+                <li class="nav-item  mt-4" id="skil">
+                    <a href="#skills" class="nav-link px-2 text-light" id="skill">
+                        <img src="assets/icons/Untitled/skills.png" alt="Skills" srcset="">
+                        <h6 class="d-none d-sm-inline ms-2">Skills</h6>
+                    </a>
+                </li>
+              <li class="nav-item  mt-4" id="contac">
+                <a href="#contacto" class="nav-link px-2 text-light" id="contact">
+                    <img src="assets/icons/Untitled/Contact.png" alt="Contacto" srcset="">
+                    <h6 class="d-none d-sm-inline ms-2">Contacto</h6>
+                </a>
+            </li>
+            </ul>
+        </div>
+      </aside>
+      <main class="col overflow-auto h-80 ms-lg-5 me-lg-5"> <!-- Adjusted classes -->
+        <div class="container">
+          <div class="col">
+            <section class="container mb-5" id="sobreMi">
+                <h5 class="text-center">Hola, mi nombre es</h5>
+                <h1 class="text-center">Roberto Robles Castro</h1>
+                <h5 class="text-center">Desarrollador Web</h5>
+                <div class="row justify-content-between">
+                    <div class="col-lg-5  col-md-12 col-sm-12 position-relative">
+                    <img class="img-fluid" src="assets/img/fotoRRC.png" alt="Roberto Roblesc" srcset="" width="auto" height="auto">
+                 </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12 mt-5 bg-dark text-light rounded-3">
+                        <p class="m-5 fs-5">Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas y funcionales.
+                             He realizados proyectos de forntend centrándome en el diseño interfaces intuitivas y
+                             atractivas con el fin de garantizar una experiencia al usuario óptima. 
+                             Además me apasiona la lógica al momento de desarrollar sistemas eficientes, escalables y 
+                             seguros en la parte del backend. </p>
+
+                            <div class="container">
+                                <div class="row text-center m-4">
+                                    
+                                    <a href="assets/RobertoRoblesCastro_CV.pdf" download="RobertoRoblesCastro_CV"> <button id="cvBtn" class="btn btn-outline-light"> 📄 Descargar CV </button> </a>
+                                    
+                                </div>
+                                
+                            </div>
+                             <hr>
+                             <div class="container">
+                                <div class="row text-center mt-5">
+                                    <div class="mb-2">
+                                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/rob2373"><img src="assets/icons/Untitled/Git.png" alt="" width="auto" height="35"></a> 
+                                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:roblescastroroberto3@gmail.com"><img src="assets/icons/Untitled/Gmail.png" alt="" width="auto" height="35"></a>
+                                    <a class="btn btn-outline-light btn-social mx-1" href="https://wa.me/+524494131222"><img src="assets/icons/Untitled/whatsapp.png" alt="" width="auto" height="35"></a>
+                                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/roberto-robles-castro-694a4b2b5/"><img src="assets/icons/Untitled/linkedin.png" alt="" width="auto" height="35"></a>
+                                    </div>
+                                </div>
+                             </div>
+
+                    </div>
+
+                   
+                    
+                </div>
+            </section>
+
+            <!-- portafolio -->
+             <section class="container mb-5" id="portafolio">
+              <h1 class="text-center m-2">Proyectos</h1>
+              <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/img/ApiGym.jpg" class="card-img-top img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">API gym</h5>
+                      <p class="card-text">API diseñada para gestionar operaciones clave de un gimnasio. Permite asignar dietas personalizadas, rutinas de entrenamiento adaptadas a cada usuario y calcular el tiempo restante de suscripción.</p>
+                      <span class="badge bg-dark">JavaScript</span>
+                      <span class="badge bg-success">Node.js</span>
+                    
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/aldayr33r/ApiRestGym"><img src="assets/icons/Untitled/Git.png" alt="" width="auto" height="35"></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="assets/img/itickets.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">iTickets</h5>
+                      <p class="card-text">Interfaz intuitiva de sistema de reporte de incidencias para soporte técnico dirigido a la área de informática.</p>
+                      <span class="badge bg-primary">CSS</span>
+                      <span class="badge bg-warning">HTML</span>
+                      <span class="badge bg-dark">EJS</span>
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/rob2373/iTickets"><img src="assets/icons/Untitled/Git.png" alt="" width="auto" height="35"></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                  
+                    <img src="assets/img/wordGame.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">WordGame</h5>
+                      <p class="card-text">Aplicación web: Videojuego móvil de sopa de letras. Ofrece niveles dinámicos, modos cronometrados y una interfaz atractiva. </p>
+                      <span class="badge bg-primary">CSS</span>
+                      <span class="badge bg-warning">HTML</span>
+                      <span class="badge bg-dark">JavaScript</span>
+                      <span class="badge bg-info">Bootstrap</span>
+                      
+                    </div>
+                    <div class="card-footer">
+                      <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/rob2373/WordGame"><img src="assets/icons/Untitled/Git.png" alt="" width="auto" height="35"></a> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+           
+            </section>
+
+           <!-- Estudios -->
+           <section class="container mb-5" id="estudios" >
+            <h1 class="text-center mt-2">Estudios</h1>
+            <div class="row justify-content-between text-light">
+
+              <div class="border-info mt-3 text-light bg-dark rounded-3">
+                <h5 class="card-header m-4 fs-4">Universidad Tecnológica del Norte de Aguascalientes.</h5>
+                <div class="card-body m-4">
+                  <hr>
+                  <h5 class="card-title">Ing. en Desarrollo y Gestión de Software.</h5>
+                  <p class="card-text text-end fs-5 text-success" >Actualmente</p>
+                </div>
+              </div>
+
+              <div class="border-info mt-3 text-light bg-dark rounded-3">
+                <h5 class="card-header m-4 fs-4">Santander Open Academy.</h5>
+                <div class="card-body m-4">
+                  <hr>
+                  <h5 class="card-title">Negociación. </h5>
+                  <p class="card-text pt-2"><a  class="btn btn-outline-light text-light" href="assets/Santander_Diploma_Roberto_Robles_Castro.pdf" download="SantanderOpenAcademy_Negociacion">  Certificado </a></p>
+                  <p class="card-text text-end fs-5 text-success" >Curso de 8 horas</p>
+                </div>
+              </div>
+              
+              <div class="border-info mt-3 text-light bg-dark rounded-3">
+                <h5 class="card-header m-4 fs-4">ICP Latam Hub.</h5>
+                <div class="card-body m-4">
+                  <hr>
+                  <h5 class="card-title">ICP Developer Azle. </h5>
+                  <p class="card-text pt-2"><a  class="btn btn-outline-light text-light" href="assets/Roberto_Robles_Castro.pdf" download="ICP Azle Qualified Developer">  Certificado </a></p>
+                  <p class="card-text text-end fs-5 text-success" >Febrero 2024</p>
+                </div>
+            </div>
+
+              <div class="border-info mt-3 text-light bg-dark rounded-3">
+                <h5 class="card-header m-4 fs-4">ICP Hub México. </h5>
+                <div class="card-body m-4">
+                  <hr>
+                  <h5 class="card-title">ICP Motoko Developer. </h5>
+                  <p class="card-text pt-2"><a  class="btn btn-outline-light text-light" href="assets/ICP_Motoko_Qualified_Developer.pdf" download="ICP Motoko Qualified Developer">  Certificado </a></p>
+                  <p class="card-text text-end fs-5 text-success" >Mayo 2024</p>
+                </div>
+              </div>
+
+              <div class="border-info mt-3 text-light bg-dark rounded-3">
+                <h5 class="card-header m-4 fs-4">Universidad Tecnológica del Norte de Aguascalientes.</h5>
+                <div class="card-body m-4">
+                  <hr>
+                  <h5 class="card-title">TSU. en Tecnologías de la Información, Desarrollo de Software Multiplataforma</h5>
+                  <p class="card-text text-end fs-5 text-success" >Agosto 2021 - Octubre 2023</p>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+          </section>
+         <!-- skills -->
+         <section class="container mb-5" id="skills" >
+            <h1 class="text-center">Skills</h1>
+            <div class="row ps-lg-5">
+              <div class="col-sm-12 col-lg-5 ms-lg-5 mt-sm-3 p-3 border border-dark rounded-3">
+                <h5 class="card-header m-4 fs-4 text-center">Lenguajes</h5>
+                <span id="html" class="badge m-1">
+                  <h5> HTML</h5>
+                </span>
+                <span class="badge bg-warning m-1">
+                 <h5> CSS</h5>
+                </span>
+                <span class="badge bg-dark m-1">
+                 <h5> JavaScript</h5>
+                </span>
+                 <span class="badge bg-info m-1">
+                  <h5> Python </h5>
+                 </span>
+                 <span class="badge bg-primary m-1">
+                  <h5> SQL </h5>
+                 </span>
+                 <span class="badge bg-success m-1">
+                  <h5> Dart </h5>
+                 </span>
+                 <span class="badge bg-info m-1">
+                  <h5> PHP </h5>
+                 </span>
+                 <span id="c" class="badge  m-1">
+                  <h5> C++/C#</h5>
+                 </span>
+              </div>
+              <div class="col-sm-12 col-lg-5 ms-lg-5 mt-sm-3 p-3 border border-dark rounded-3">
+                <h5 class="card-header m-4 fs-4 text-center">Frameworks y Librerias</h5>
+                <span id="dj" class="badge m-1"> 
+                  <h5> Django</h5>
+                </span>
+                <span class="badge bg-success m-1">
+                 <h5> Express.js</h5>
+                </span>
+                <span id="fl" class="badge m-1">
+                 <h5> Flutter</h5> 
+                </span>
+                 <span class="badge bg-info m-1">
+                  <h5> jQuery </h5>
+                 </span>
+                 <span id="c" class="badge  m-1">
+                  <h5> Bootstrap</h5>
+                 </span>
+              </div>
+            </div>
+            <div class="row  mt-3">
+              <div class="col-12  text-center rounded-3 p-3 text-center border border-info">
+                <h5 class="card-header m-4 fs-4">Herramientas y Tecnologías</h5>
+                <span id="html" class="badge m-1"> 
+                  <h5> Git</h5>
+                </span>
+                <span class="badge bg-dark m-1">
+                 <h5> GitHub</h5>
+                </span>
+                <span class="badge bg-danger m-1">
+                 <h5> npm</h5> 
+                </span>
+                 <span class="badge bg-info m-1">
+                  <h5> Figma </h5>
+                 </span>
+                 <span id="post" class="badge  m-1">
+                  <h5> Postman</h5>
+                 </span>
+                 <span class="badge bg-primary m-1">
+                  <h5> Jira</h5>
+                 </span>
+                 <span id="c" class="badge m-1">
+                  <h5> MS Officce</h5>
+                 </span>
+                 <span class="badge bg-info m-1">
+                  <h5> Visual Studio Code</h5>
+                 </span>
+
+              </div>
+            </div>
+         </section>
+         
+         <!-- contacto -->
+         <section class="container mb-3" id="contacto" >
+            <h1 class="text-center m-1">Contáctame!</h1>
+            <div class="row  mt-3 justify-content-between">
+              <div class="col-12  rounded-3 p-3border border-info">
+              <div class="card bg-dark" >
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-dark">
+                    <img src="assets/icons/Untitled/Git.png" alt="">
+                    <span class="badge bg-dark m-1">
+                     <h6> GitHub: </h6>
+                    </span>
+                    <a href="https://github.com/rob2373"> https://github.com/rob2373</a>
+                  </li>
+                  <li class="list-group-item bg-dark">
+                    <img class="" src="assets/icons/Untitled/Gmail.png" alt="">
+                    <span class="badge bg-danger m-1">
+                     <h6> Email: </h6>
+                    </span>
+                    <a href="mailto:roblescastroroberto3@gmail.com"> roblescastroroberto3@gmail.com</a>
+                  </li>
+                  <li class="list-group-item bg-dark">  
+                     <img src="assets/icons/Untitled/whatsapp.png" alt="" width="auto" height="37">
+                    <span class="badge bg-success m-1">
+                     <h6> Whatapp: </h6>
+                    </span>
+                    <a href="https://wa.me/+524494131222"> +52 449 413 1222</a>
+                  </li><li class="list-group-item bg-dark">  
+                    <img src="assets/icons/Untitled/linkedin.png" alt="">
+                   <span class="badge bg-primary m-1">
+                    <h6> Linkedin: </h6>
+                   </span>
+                   <a href="https://www.linkedin.com/in/roberto-robles-castro-694a4b2b5/">https://www.linkedin.com/in/roberto-robles-castro-694a4b2b5/</a>
+                 </li>
+                </ul>
+              </div>
+
+              </div>
+            </div>
+         </section>
+          </div>
+        </div>
+      </main>
+    </body> 
+    <button id="btnUp" title="Subir" class="scrollTopBtn">↑</button>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script> 
+    <script src="./script.js"></script>
+    <script src="./serviceworker.js"></script>
+
+
+
+    
+    
+</html>
